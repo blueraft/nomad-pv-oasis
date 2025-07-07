@@ -18,7 +18,7 @@ north:
       voila:
         short_description: A jupyter webapp container with voila opens voila
         description: A jupyter hub webapp container with voila installed.
-        image: ghcr.io/rotekekse/test_nomad_distro_pv/jupyter:main
+        image: ghcr.io/blueraft/nomad-pv-oasis/jupyter:main
         path_prefix: voila/render
         with_path: true
         mount_path: /home/jovyan
